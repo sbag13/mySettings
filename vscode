@@ -1,6 +1,41 @@
 {
-    "editor.fontFamily": "DejaVu Sans Mono",
-    "workbench.editor.enablePreview": true,
-    "workbench.editor.enablePreviewFromQuickOpen": true,
-    "workbench.startupEditor": "none"
+    "workbench.colorTheme": "Gneak",
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.rulers": [
+        100
+    ],
+    "workbench.editor.tabSizing": "shrink",
+    "window.menuBarVisibility": "hidden",
+    "window.restoreFullscreen": false,
+    "window.newWindowDimensions": "default",
+    "editor.renderWhitespace": "all",
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.renderControlCharacters": false,
+    "todohighlight.isEnable": true,
+    "editor.minimap.enabled": true,
+    "search.quickOpen.includeSymbols": true,
+    "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": false,
+    "[cpp]": {
+        
+    },
+    "cppcheck.cppcheckPath": "/usr/bin/cppcheck",
+    "treeview.allowedProviders": [
+        "java",
+        "javascript",
+        "json",
+        "openhab",
+        "php",
+        "python",
+        "css",
+        "less",
+        "cfamily"
+    ],
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.visible": true,
+    "editor.wordWrap": "off"
 }

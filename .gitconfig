@@ -1,0 +1,16 @@
+[user]
+	email = szymon.baginski@gmail.com
+	name = sbaginsk
+[core]
+	editor = vim
+[fetch]
+	prune = true
+[alias]
+	lg = log --graph --oneline --decorate
+	lga = log --graph --oneline --decorate --all
+	ci = commit
+	co = checkout
+	lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --date=relative
+	lola = !git lol --all
+	st = status
+	b = branch
